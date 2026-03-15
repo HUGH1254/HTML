@@ -130,6 +130,7 @@ p {
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .ef-background {
@@ -307,42 +308,31 @@ p {
 }
 
 .photo-grid {
-    padding: 100px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .photo-item {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     width: 350px;
     height: 603px;
     gap: 46px;
-    border-radius: 20px;
+    overflow: hidden;
 }
 
-.small-photo,
-.big-photo {
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    background-size: cover;
+.photo-item:nth-child(odd) {
+    grid-template-rows: 7fr 3fr;
 }
 
-.small-photo {
-    height: 30%;
-    flex: 30;
-    background-image: url('img/a12.png');
+.photo-item:nth-child(even) {
+    grid-template-rows: 3fr 7fr;
 }
 
-.big-photo {
-    height: 70%;
-    flex: 70;
-    background-image: url('img/a1.png');
-
-}
-
-.photo-cus {
+.photo-list {
+    width: 120%;
     display: flex;
-    gap: 20px;
+    gap: 46px;
 }
 
 .comment {
