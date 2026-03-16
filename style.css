@@ -26,7 +26,7 @@ p {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    align-content: center;
+
     align-items: center;
 }
 
@@ -51,7 +51,7 @@ p {
 .border-header {
     width: 100%;
     height: 60px;
-    border-bottom: 1px solid rgba(56, 56, 56, 0.2);
+    border-bottom: 1px solid #2D2D2D;
     position: absolute;
     align-items: center;
 }
@@ -83,21 +83,26 @@ p {
 
 .hero {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: start;
     padding-top: 256px;
-    padding-bottom: 200px;
     overflow: hidden;
     height: 100%;
-    gap: 50px
+    gap: 50px;
+
 }
 
 .hero-text {
-
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
     display: grid;
     width: 911px;
-    height: 450px;
     font-size: 30px;
     font-weight: 600;
+    gap: 20px;
+
 }
 
 .hero-text h1 {
@@ -114,6 +119,7 @@ p {
     min-height: 100vh;
     align-self: center;
     position: relative;
+    align-content: start;
 }
 
 .hero-image {
@@ -164,20 +170,25 @@ p {
     background-color: orange;
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
+
 }
 
 .vocabulary {
-    margin-top: -100px;
+    bottom: 0;
     position: relative;
+    margin-top: 160px;
+    display: flex;
 }
 
 .grid-vocabulary {
+    margin-bottom: -100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: hidden;
     text-align: center;
     align-content: center;
+    position: relative;
 }
 
 .vocab-box {
@@ -204,8 +215,7 @@ p {
     display: flex;
     background-image: url('img/bg-futures.png');
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
 }
 
 .title-features {
@@ -251,6 +261,7 @@ p {
     width: 380px;
     height: 250px;
     object-fit: cover;
+
 }
 
 .features-item h1 {
@@ -270,20 +281,21 @@ p {
 .ai-ex {
     display: block;
     justify-items: center;
-    padding: 100px;
+    padding-top: 200px;
 }
 
 .ai-text {
-    justify-items: center;
+    width: 800px;
+    justify-self: center;
+    text-align: center;
+    margin: 30px auto;
 }
 
 .ai-text h2 {
-    width: 50%;
     font-size: 40px;
     font-weight: 600;
-    text-align: center;
-    justify-content: center;
-    margin: 30px;
+    ;
+
 }
 
 .ai-photo img {
@@ -309,8 +321,8 @@ p {
 
 .photo-grid {
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 200px;
+
 }
 
 .photo-item {
@@ -330,15 +342,16 @@ p {
 }
 
 .photo-list {
-    width: 120%;
     display: flex;
     gap: 46px;
 }
 
 .comment {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    margin-top: 200px;
+    justify-content: center;
 }
 
 .title-comment {
@@ -349,9 +362,22 @@ p {
 
 .comment-list {
     display: flex;
-    justify-content: space-between;
-    gap: 100px
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
 }
+
+.background-decamy {
+    width: 100%;
+    background-image: url("img/texture-decamy.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+    position: absolute;
+}
+
+.plane {}
 
 .star {
     color: yellow;
@@ -391,7 +417,7 @@ p {
 
 .package {
     gap: 50px;
-    padding: 100px
+    margin-top: 200px;
 }
 
 .tab-course-gr {
@@ -407,6 +433,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     border: unset;
+    cursor: pointer;
 }
 
 .active {
@@ -514,7 +541,7 @@ p {
 }
 
 .ai-pack {
-    padding: 100px;
+    margin-top: 200px;
 }
 
 .btn-package {
@@ -554,7 +581,7 @@ p {
 }
 
 .faq {
-    padding: 100px;
+    margin-top: 200px;
 }
 
 .faq-item {
@@ -580,7 +607,7 @@ p {
     background-color: black;
     color: white;
     align-items: center;
-
+    margin-top: 200px;
 }
 
 .footer_list {
