@@ -2,26 +2,15 @@
     .grid-vocabulary {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     .hero-image {
         display: none;
     }
 
-    .title-features {
-        display: grid;
-        text-align: center;
-
-
-    }
-
     .title-features span {
         width: 100%;
-    }
-
-    .features-list {
-        display: grid;
     }
 
     .ai-text {
@@ -32,12 +21,20 @@
         width: 100%;
     }
 
-    .comment-item {
-        flex: 0 0 calc((100% / 2) - (10px / 2));
+    .features-item {
+        flex: 0 0 calc((100% / 2) - (20px / 2));
+        border-radius: 10px;
+        text-align: center;
+
     }
 
-    .package-label {
-        flex: 0 0 calc((100% / 2) (20px / 2));
+    .comment-item {
+        flex: 0 0 calc((100% / 2) - (20px / 2));
+    }
+
+    .package-item {
+
+        flex: 0 0 calc((100% / 2) - (20px /2));
     }
 
     .footer_list {
