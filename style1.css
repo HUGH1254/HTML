@@ -2,11 +2,57 @@
     .grid-vocabulary {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
     }
 
     .hero-image {
         display: none;
     }
 
+    .title-features {
+        display: grid;
+        text-align: center;
 
+
+    }
+
+    .title-features span {
+        width: 100%;
+    }
+
+    .features-list {
+        display: grid;
+    }
+
+    .ai-text {
+        width: 100%;
+    }
+
+    .plane {
+        width: 100%;
+    }
+
+    .comment-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .footer_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .comment-list {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_list {
+        display: flex;
+
+        gap: 10px
+    }
 }
