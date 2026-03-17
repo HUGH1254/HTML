@@ -454,8 +454,6 @@ p {
 }
 
 .package-item {
-    position: relative;
-    z-index: 10;
     flex: 0 0 calc((100% / 3) - (40px /3));
     border-radius: 20px;
     display: grid;
@@ -472,7 +470,6 @@ p {
     border-radius: 20px;
     position: relative;
     transition: transform .2s;
-    flex: 0 0 calc((100% / 3) - (40px /3));
 }
 
 .package-label.disable:hover {
