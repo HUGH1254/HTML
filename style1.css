@@ -32,10 +32,12 @@
         width: 100%;
     }
 
-    .comment-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .comment-item {
+        flex: 0 0 calc((100% / 2) - (10px / 2));
+    }
 
+    .package-label {
+        flex: 0 0 calc((100% / 2) (20px / 2));
     }
 
     .footer_list {
@@ -46,8 +48,9 @@
 }
 
 @media only screen and (max-width:768px) {
-    .comment-list {
-        grid-template-columns: 1fr;
+
+    .comment-item {
+        flex: 0 0 calc(100% - 5px);
     }
 
     .footer_list {
