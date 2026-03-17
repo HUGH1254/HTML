@@ -5,6 +5,11 @@
         margin-top: 40px;
     }
 
+    .hero {
+        text-align: center;
+        align-items: center;
+    }
+
     .hero-image {
         display: none;
     }
@@ -32,7 +37,7 @@
         flex: 0 0 calc((100% / 2) - (20px / 2));
     }
 
-    .package-item {
+    .package-label {
 
         flex: 0 0 calc((100% / 2) - (20px /2));
     }
@@ -46,8 +51,24 @@
 
 @media only screen and (max-width:768px) {
 
+    .features-item {
+        flex: 0 0 calc(100% - 20px);
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
     .comment-item {
-        flex: 0 0 calc(100% - 5px);
+        flex: 0 0 calc(100% - 20px);
+    }
+
+    .package-label {
+
+        flex: 1
+    }
+
+    .package-item {
+        flex: 1;
     }
 
     .footer_list {
