@@ -420,12 +420,13 @@ a {
     z-index: 8;
     position: absolute;
     bottom: 30%;
-
+    display: flex;
+    justify-self: center;
 }
 
 .plane {
-
-    width: 1619px;
+    height: 100%;
+    width: 100%;
 
 }
 
