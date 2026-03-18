@@ -6,8 +6,13 @@
     }
 
     .hero {
+
         text-align: center;
         align-items: center;
+    }
+
+    .hero-text {
+        width: 100%;
     }
 
     .hero-image {
@@ -51,6 +56,30 @@
 
 @media only screen and (max-width:768px) {
 
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu::before {
+        content: "/f0c9";
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        font-style: "Font";
+        background-position: center;
+    }
+
+
+
+
+
+
+
+
     .features-item {
         flex: 0 0 calc(100% - 20px);
         border-radius: 10px;
@@ -64,7 +93,7 @@
 
     .package-label {
 
-        flex: 1
+        flex: 0 0 calc(100% - 20px)
     }
 
     .package-item {
