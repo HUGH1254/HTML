@@ -64,14 +64,6 @@
         display: flex;
     }
 
-    .menu::before {
-        content: "/f0c9";
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        font-style: "Font";
-        background-position: center;
-    }
 
 
 
