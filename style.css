@@ -276,7 +276,7 @@ a {
 
     background-image: url('img/bg-futures.png');
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .title-features {
@@ -420,7 +420,7 @@ a {
     position: relative;
     z-index: 20;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 140px;
 
 }
 
@@ -503,6 +503,7 @@ a {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .package {
@@ -740,7 +741,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     color: unset;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .footer {
