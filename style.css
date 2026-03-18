@@ -369,26 +369,51 @@ a {
 }
 
 .photo-item {
-    display: grid;
-
-    height: 603px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
     gap: 46px;
-    overflow: hidden;
+    overflow-x: hidden;
+    border-radius: 20px;
+
 }
 
-.photo-item:nth-child(odd) {
-    grid-template-rows: 7fr 3fr;
+.photo-item img:nth-child(add) {
+    flex: 0 0 30%
 }
 
-.photo-item:nth-child(even) {
-    grid-template-rows: 3fr 7fr;
+.photo-item img:nth-child(even) {
+    flex: 70%
+}
+
+.photo-item:nth-child(odd) img:nth-child(1) {
+    flex: 7
+}
+
+.photo-item:nth-child(odd) img:nth-child(2) {
+    flex: 3
+}
+
+.photo-item:nth-child(even) img:nth-child(1) {
+    flex: 4
+}
+
+.photo-item:nth-child(even) img:nth-child(2) {
+    flex: 6
+}
+
+.photo-item img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 .photo-list {
-
     display: flex;
-    gap: 46px;
-    overflow: hidden;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    gap: 20px
 }
 
 .comment {
