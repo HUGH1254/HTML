@@ -14,28 +14,19 @@ html {
     overflow-x: hidden;
 }
 
-h1 {
-    color: unset;
-}
 
 a {
     color: unset;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #F4B00C;
-}
 
-p {
-    background-color: unset;
-    color: whitesmoke;
-}
+
+
 
 .menu {
     position: absolute;
-    z-index: 100000000;
+    z-index: 10;
     top: 21px;
 
     right: 50px;
@@ -100,7 +91,7 @@ p {
 
 .text-nav {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     font-size: 16px;
     color: white;
     font-weight: 400;
@@ -164,7 +155,7 @@ p {
     font-size: 30px;
     font-weight: 600;
     gap: 20px;
-
+    color: white;
 }
 
 .text-60-600 {
@@ -230,7 +221,7 @@ p {
     max-height: 51px;
     font-weight: 600;
     font-size: 18px;
-    color: unset;
+    color: white;
     background-color: unset;
     background-color: orange;
     border-radius: 10px;
@@ -241,21 +232,22 @@ p {
 .vocabulary {
 
     position: relative;
-    display: flex;
+    display: block;
     justify-content: space-around;
 
 }
 
 .grid-vocabulary {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     align-content: center;
-    gap: 20px;
+    gap: 26px;
     margin-top: -60px;
 }
 
 .vocab-box {
-    padding: 3% 6%;
+    padding: 38px 30px;
     display: grid;
     background: #ffffff;
     border-radius: 10px;
@@ -274,9 +266,9 @@ p {
 
 }
 
-.text {
+.text-30-600 {
     font-size: 30px;
-    font-weight: 60px;
+    font-weight: 600;
 }
 
 .features {
@@ -293,7 +285,7 @@ p {
     justify-content: space-between;
     overflow: hidden;
     margin-bottom: 20px;
-    text-align: center;
+
 }
 
 .title-features p {
@@ -373,14 +365,12 @@ p {
 }
 
 .photo-grid {
-    width: 100%;
     margin-top: 200px;
-
 }
 
 .photo-item {
     display: grid;
-    width: 350px;
+
     height: 603px;
     gap: 46px;
     overflow: hidden;
@@ -395,13 +385,15 @@ p {
 }
 
 .photo-list {
+
     display: flex;
     gap: 46px;
+    overflow: hidden;
 }
 
 .comment {
     position: relative;
-    z-index: 50;
+    z-index: 20;
     text-align: center;
     margin-top: 200px;
 
@@ -500,6 +492,10 @@ p {
     cursor: pointer;
 }
 
+.tab-course:hover {
+    background-color: #F4B00C;
+}
+
 .active {
     background-color: orange;
 }
@@ -594,6 +590,11 @@ p {
     gap: 5px;
 }
 
+.text-18-500 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .obliterate {
     font-size: 18px;
     font-weight: 500;
@@ -628,6 +629,11 @@ p {
     gap: 10px;
     font-weight: 300;
     color: unset;
+}
+
+.text-18-300 {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .icon-tick {
@@ -699,6 +705,7 @@ p {
     font-size: 20px;
     font-weight: 500;
     color: unset;
+    margin-bottom: 5px;
 }
 
 .footer {
@@ -710,9 +717,8 @@ p {
 }
 
 .footer_list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 46px;
     margin-bottom: 46px;
 }
@@ -721,7 +727,7 @@ p {
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
 
 }
 
@@ -750,4 +756,9 @@ p {
     font-size: 15px;
     font-weight: 500;
     gap: 10px;
+}
+
+.logo-footer {
+    height: 40px;
+    width: 183px;
 }
