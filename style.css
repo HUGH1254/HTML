@@ -420,6 +420,10 @@ a {
     z-index: 8;
     position: absolute;
     bottom: 30%;
+
+}
+
+.center {
     display: flex;
     justify-self: center;
 }
