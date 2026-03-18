@@ -436,8 +436,8 @@ a {
 
 
 .background-decamy {
-    right: 0;
-    left: 0;
+    right: 100px;
+    left: 100px;
     background-image: url("img/texture-decamy.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -445,12 +445,6 @@ a {
     z-index: 8;
     position: absolute;
     bottom: 30%;
-
-}
-
-.center {
-    display: flex;
-    justify-self: center;
 }
 
 .plane {
