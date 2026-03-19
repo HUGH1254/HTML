@@ -12,23 +12,18 @@ html {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-}
 
+}
 
 a {
     color: unset;
     text-decoration: none;
 }
 
-
-
-
-
 .menu {
     position: absolute;
     z-index: 10;
     top: 21px;
-
     right: 50px;
     align-items: end;
     flex-direction: column;
@@ -92,9 +87,6 @@ a {
 .text-nav {
     display: flex;
     gap: 30px;
-    font-size: 16px;
-    color: white;
-    font-weight: 400;
     white-space: nowrap;
 
 }
@@ -152,21 +144,12 @@ a {
     display: flex;
     flex-direction: column;
     overflow-wrap: break-word;
-    font-size: 30px;
-    font-weight: 600;
+
     gap: 20px;
     color: white;
 }
 
-.text-60-600 {
-    font-size: 60px;
-    font-weight: 600;
-}
 
-.text-30-600 {
-    font-size: 30px;
-    font-weight: 600;
-}
 
 .hero-section {
     background-image: url('img/bg.png');
@@ -219,11 +202,6 @@ a {
 .btn-hero {
     width: 222px;
     max-height: 51px;
-    font-weight: 600;
-    font-size: 18px;
-    color: white;
-    background-color: unset;
-    background-color: orange;
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
 
@@ -259,18 +237,6 @@ a {
 
 }
 
-.counter {
-    font-size: 60px;
-    color: orange;
-    font-weight: 700;
-
-}
-
-.text-30-600 {
-    font-size: 30px;
-    font-weight: 600;
-}
-
 .features {
     display: flex;
 
@@ -290,15 +256,10 @@ a {
 
 .title-features p {
     flex: 1;
-    font-weight: 600;
-    font-size: 40px;
-    color: unset;
 }
 
 .title-features span {
     width: 600px;
-    font-weight: 400;
-    font-size: 25px;
 }
 
 .features-list {
@@ -322,14 +283,12 @@ a {
 
 .features-item h1 {
     color: unset;
-    font-size: 25px;
-    font-weight: 600;
+
 }
 
 .features-item p {
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: 400;
+
     color: unset;
 
 }
@@ -352,17 +311,9 @@ a {
     padding: 100px
 }
 
-.text-photo h1 {
-    font-size: 80px;
-    font-weight: 700;
-    color: orange;
-}
 
-.text-photo p {
-    font-size: 40px;
-    font-weight: 600;
-    color: unset;
-}
+
+
 
 .photo-grid {
     margin-top: 200px;
@@ -428,11 +379,7 @@ a {
     margin-top: 0 !important
 }
 
-.text-40-600 {
-    color: black;
-    font-size: 40px;
-    font-weight: 600;
-}
+
 
 
 .background-decamy {
@@ -480,23 +427,17 @@ a {
 }
 
 .comment-item h1 {
-    font-size: 18px;
-    font-weight: 700;
     margin: 20px;
     margin-top: 0;
 }
 
 .comment-item h3 {
-    font-size: 15px;
-    font-weight: 400;
     margin: 20px;
 }
 
 .package-text {
     width: 100%;
     text-align: center;
-    font-size: 40px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -511,8 +452,6 @@ a {
 }
 
 .tab-course {
-    font-size: 18px;
-    font-weight: 500;
     height: 40px;
     border-radius: 10px;
     padding-left: 15px;
@@ -586,8 +525,7 @@ a {
 
 .best-package {
 
-    font-size: 18px;
-    font-weight: 500;
+
     color: black;
     text-align: center;
     margin: 0px auto;
@@ -604,66 +542,34 @@ a {
 }
 
 
-.package-item h1 {
-    font-size: 25px;
-    font-weight: 600;
-}
 
-.package-item h2 {
-    font-size: 16px;
-    font-weight: 300;
-}
+
+
 
 .sale {
     display: grid;
     gap: 5px;
 }
 
-.text-18-500 {
-    font-size: 18px;
-    font-weight: 500;
-}
 
 .obliterate {
-    font-size: 18px;
-    font-weight: 500;
     opacity: 0.4;
     text-decoration: line-through;
 }
 
-.info-sale {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.price {
-    font-size: 25px;
-    font-weight: 500;
-}
 
 .price span {
-    font-size: 18px;
-    font-weight: 300;
     opacity: 0.4;
 }
 
-.package-item h4 {
-    font-size: 16px;
-    font-weight: 500;
-}
-
 .info-pack {
-    font-size: 16px;
+
     display: flex;
     gap: 10px;
-    font-weight: 300;
+
     color: unset;
 }
 
-.text-18-300 {
-    font-size: 18px;
-    font-weight: 300;
-}
 
 .icon-tick {
     width: 16px;
@@ -684,8 +590,7 @@ a {
     height: 40px;
     border-radius: 10px;
     margin: 10px 0 10px 0;
-    font-size: 16px;
-    font-weight: 500;
+
     border: none;
 }
 
@@ -701,18 +606,7 @@ a {
     padding: 20px;
 }
 
-.text-ai-pack {
-    font-size: 22px;
-    font-weight: 500;
-    color: unset;
-}
 
-.ai-price {
-    font-size: 18px;
-    font-weight: 500;
-    color: unset;
-
-}
 
 .faq {
     margin-top: 200px;
@@ -723,8 +617,7 @@ a {
     border: 2px solid whitesmoke;
     border-radius: 10px;
     padding: 20px;
-    font-size: 18px;
-    font-weight: 300;
+
     margin: 20px auto;
 }
 
@@ -732,8 +625,6 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 100px;
-    font-size: 20px;
-    font-weight: 500;
     color: unset;
     margin-bottom: 20px;
 }
@@ -776,15 +667,12 @@ a {
 
 .title-footer {
     display: flex;
-    font-size: 15px;
-    font-weight: 600;
+
 
 }
 
 .info-footer {
     display: flex;
-    font-size: 15px;
-    font-weight: 500;
     gap: 10px;
 }
 
