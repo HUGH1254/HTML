@@ -1,0 +1,9 @@
+.border-header.b-while {
+    max-height: 50px;
+    position: fixed;
+    z-index: 101;
+}
+
+.header.b-2 {
+    padding: 0 !important;
+}
