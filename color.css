@@ -6,6 +6,10 @@
     background-color: #FCBD28;
 }
 
+.b-cart {
+    background-color: #FFFFFF;
+}
+
 .black {
     color: #121212;
 }
@@ -15,9 +19,13 @@
 }
 
 .orange {
-    color: orange;
+    color: #F4B00C;
 }
 
 .yellow {
     color: yellow;
+}
+
+.red {
+    color: #FF2D55;
 }

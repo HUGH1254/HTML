@@ -63,7 +63,7 @@ a {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
+
 }
 
 .logo {
@@ -190,7 +190,6 @@ a {
 .btn {
     width: 100%;
     display: inline-block;
-    font-weight: 20px;
     cursor: pointer;
     align-content: center;
     border: none;
@@ -560,10 +559,8 @@ a {
 }
 
 .info-pack {
-
     display: flex;
     gap: 10px;
-
     color: unset;
 }
 
