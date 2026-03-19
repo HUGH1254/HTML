@@ -45,7 +45,6 @@ a {
     align-items: end;
     max-height: 0px;
     overflow: hidden;
-    background-color: white;
     margin-top: 10px;
 }
 
@@ -146,7 +145,7 @@ a {
     overflow-wrap: break-word;
 
     gap: 20px;
-    color: white;
+
 }
 
 
@@ -401,7 +400,7 @@ a {
 }
 
 .star {
-    color: yellow;
+
     margin: 20px;
     margin-bottom: 0;
 }
@@ -526,7 +525,7 @@ a {
 .best-package {
 
 
-    color: black;
+
     text-align: center;
     margin: 0px auto;
 }
@@ -632,7 +631,6 @@ a {
 .footer {
     display: flex;
     background-color: black;
-    color: white;
     align-items: center;
     margin-top: 200px;
 }
