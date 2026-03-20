@@ -15,6 +15,17 @@ html {
 
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 a {
     color: unset;
     text-decoration: none;
@@ -183,6 +194,12 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    object-fit: cover;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
