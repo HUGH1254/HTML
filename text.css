@@ -141,3 +141,13 @@
     font-size: 15px;
     font-weight: 700;
 }
+
+.text-20-300 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.text-40-700 {
+    font-size: 40px;
+    font-weight: 700
+}
