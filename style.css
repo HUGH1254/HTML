@@ -12,7 +12,6 @@ html {
 
 }
 
-
 .pointer {
     cursor: pointer;
 }
@@ -45,6 +44,18 @@ html {
 
 .g-100 {
     gap: 100px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 .mt-160 {
@@ -96,10 +107,7 @@ html {
     justify-content: center;
 }
 
-.grid-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
 
 .grid-2 {
     display: grid;

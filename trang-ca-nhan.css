@@ -1,12 +1,19 @@
-.list-choise {
-    width: 200px;
+.main-section .container {
+    max-width: 1030px;
 }
 
-.profile {}
+.profile {
+    flex: 1;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
 
 .btn-profile {
     padding: 10px 20px;
     border-radius: 10px;
+    display: flex;
+    border: 0;
 }
 
 .avt-profile {
@@ -20,4 +27,63 @@
 
 .flex-center .btn {
     flex: 1;
+}
+
+.box-input .flex {
+    position: relative;
+    z-index: 10;
+}
+
+.list-choise {
+    flex-direction: column;
+    width: 200px;
+}
+
+.T-111 {}
+
+.input-bar {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.info-profile {
+    flex-direction: column;
+    align-items: start;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0;
+    -webkit-appearance: none;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-input .image {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 101;
+    right: 12px;
+    top: 43%;
+    pointer-events: none;
+}
+
+
+.info-profile.sub {
+    padding: 20px 30px;
+    border: 1px solid #E8EDF2;
+    border-radius: 20px;
+
+}
+.info-class{
+    padding: 10px 15px;
+    border-radius: 10px;
+    
 }
