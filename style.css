@@ -19,12 +19,44 @@ html {
 
 :root {}
 
+.g-10 {
+    gap: 10px;
+}
+
+.g-15 {
+    gap: 15px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.g-25 {
+    gap: 25px;
+}
+
+.g-30 {
+    gap: 30px;
+}
+
+.g-50 {
+    gap: 50px;
+}
+
+.g-100 {
+    gap: 100px;
+}
+
 .mt-160 {
     margin-top: 160px;
 }
 
 .p-10 {
     padding: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mt-50 {
@@ -82,7 +114,7 @@ a {
 .border-header.b-while {
     max-height: 50px;
     position: fixed;
-    z-index: 10;
+    z-index: 101;
     border: 0;
 }
 
@@ -285,9 +317,6 @@ a {
 
     position: relative;
     z-index: 11;
-    display: block;
-    justify-content: space-around;
-
 }
 
 .grid-vocabulary {

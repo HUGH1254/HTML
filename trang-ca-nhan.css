@@ -1,0 +1,17 @@
+.list-choise {
+    width: 200px;
+}
+
+.btn-profile {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.avt-profile {
+    width: 80px;
+    height: 80px;
+}
+
+.avt-profile .image {
+    border-radius: 100px;
+}
