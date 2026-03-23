@@ -30,7 +30,8 @@
     flex: 0 0 calc((100% / 5) - (80px / 5));
     border-radius: 20px;
     text-align: center;
-    height: 250px;
+    padding-top: 61px;
+    padding-bottom: 61px;
     cursor: pointer;
 }
 

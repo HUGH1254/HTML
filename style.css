@@ -111,7 +111,7 @@ a {
     text-decoration: none;
 }
 
-.border-header.b-while {
+.border-header.b-white {
     max-height: 50px;
     position: fixed;
     z-index: 101;
@@ -120,6 +120,11 @@ a {
 
 .header.b-2 {
     padding: 0;
+}
+
+.logo.b-2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .menu {
