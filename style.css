@@ -8,13 +8,20 @@
 
 body,
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     overflow-x: hidden;
+
+}
+
+
+.pointer {
+    cursor: pointer;
 }
 
 :root {}
+
+.mt-160 {
+    margin-top: 160px;
+}
 
 .p-10 {
     padding: 10px;
@@ -38,6 +45,10 @@ html {
 
 .mt-140 {
     margin-top: 140px;
+}
+
+.flex {
+    display: flex;
 }
 
 .flex-center-column {
@@ -71,7 +82,7 @@ a {
 .border-header.b-while {
     max-height: 50px;
     position: fixed;
-    z-index: 101;
+    z-index: 10;
     border: 0;
 }
 
@@ -96,6 +107,7 @@ a {
     height: 25px;
     right: 0;
     position: relative;
+    z-index: 10;
 }
 
 .text-menu {
@@ -133,7 +145,7 @@ a {
 
 .nav {
     position: relative;
-    z-index: 8;
+    z-index: 9;
     display: inline-flex;
     gap: 30px;
     align-items: center;
@@ -155,6 +167,7 @@ a {
     border-bottom: 1px solid #2D2D2D;
     position: absolute;
     align-items: center;
+    z-index: 10;
 }
 
 .header {
@@ -163,7 +176,6 @@ a {
     justify-content: space-between;
     gap: 2rem;
     padding: 16px 0;
-    position: relative;
 }
 
 .avt {
@@ -215,6 +227,7 @@ a {
     align-self: center;
     position: relative;
     align-content: start;
+    z-index: 1;
 }
 
 .hero-image {
@@ -271,6 +284,7 @@ a {
 .vocabulary {
 
     position: relative;
+    z-index: 11;
     display: block;
     justify-content: space-around;
 
@@ -419,8 +433,8 @@ a {
 
 .comment {
     position: relative;
-    z-index: 20;
     text-align: center;
+    z-index: 10;
 }
 
 .margin-top {
@@ -437,7 +451,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 8;
+    z-index: -1;
     position: absolute;
     bottom: 30%;
 }
@@ -540,6 +554,7 @@ a {
     position: relative;
     transition: transform .2s;
     flex: 0 0 calc((100% / 3) - (40px /3));
+    z-index: 10;
 }
 
 .package-label.disable:hover {
@@ -560,7 +575,7 @@ a {
     max-width: 100%;
     width: 100%;
     position: absolute;
-    z-index: 5;
+    z-index: -1;
     top: -1px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;

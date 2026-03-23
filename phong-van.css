@@ -10,6 +10,7 @@
 
 .photo-train img {
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .text-train {
@@ -30,6 +31,7 @@
     border-radius: 20px;
     text-align: center;
     height: 250px;
+    cursor: pointer;
 }
 
 .topic-list {
@@ -69,6 +71,7 @@
 .tutorial-menu .btn-voucher {
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .active {
@@ -78,6 +81,7 @@
 .tutorial-item {
     flex: 0 0 calc((100% / 4) - (80px / 4));
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .text-tutorial {
@@ -90,4 +94,21 @@
 
 .photo-tutorial .image {
     border-radius: 20px 20px 0px 0px;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    height: 250px;
+    background-color: #F4B00C33;
+}
+
+.text-content {
+    gap: 30px;
+    align-items: start;
+    margin: 48px auto;
+}
+
+.text-content .flex {
+    gap: 20px;
 }
