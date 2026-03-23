@@ -2,6 +2,8 @@
     width: 200px;
 }
 
+.profile {}
+
 .btn-profile {
     padding: 10px 20px;
     border-radius: 10px;
@@ -14,4 +16,8 @@
 
 .avt-profile .image {
     border-radius: 100px;
+}
+
+.flex-center .btn {
+    flex: 1;
 }
