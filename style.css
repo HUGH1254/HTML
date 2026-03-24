@@ -11,13 +11,25 @@ html {
     overflow-x: hidden;
 
 }
-
+.icon-14{
+    width:14px;
+    height: 14px;
+}
 .pointer {
     cursor: pointer;
 }
 
 :root {}
-
+.ptb-5{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.g-5{
+    gap:5px
+}
 .g-10 {
     gap: 10px;
 }
@@ -45,7 +57,10 @@ html {
 .g-100 {
     gap: 100px;
 }
-
+.mtb-center{
+    margin-left: auto;
+    margin-right: auto; 
+}
 .mt-5 {
     margin-top: 5px;
 }
