@@ -101,6 +101,7 @@
     height: 250px;
     background-color: #F4B00C33;
     display: grid;
+    margin-top: 73px;
 }
 
 .text-content {
@@ -140,4 +141,15 @@
 
 .relate-item {
     flex: 0 0 calc((100% / 3) - (40px / 3));
+    border-radius: 20px;
+}
+.container.communicate{
+    max-width: 1030px;
+}
+.text-content.container{
+    max-width: 1030px;
+}
+.btn-content{
+    padding: 10px 20px;
+    border-radius: 20px;
 }
