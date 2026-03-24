@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px !important;
+}
+.time-btn {
+width: 120px;
+}
+.btn-time {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.text-test{
+     align-items: center;
+     gap:5px ; 
+     flex:1;
+}
+.icon-text{
+  
+    border: 1px solid #D9D9D9;
+    border-radius: 100px;
+    padding: 10px;
+   
+}
+.exam{
+    flex-direction: column;
+    flex:1;
+    padding: 20px 25px;
+    }
