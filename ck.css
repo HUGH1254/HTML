@@ -41,8 +41,7 @@
     gap: 30px;
 }
 
-.monney,
-.id {
+.money,.id {
     display: grid;
     gap: 15px;
 }
