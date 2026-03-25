@@ -1,0 +1,154 @@
+.container {
+    max-width: 1130px !important;
+}
+
+
+.cart {
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+}
+
+.product {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+
+.khung {
+    display: flex;
+    gap: 30px;
+}
+.price {
+    display: flex;
+    gap: 15px;
+}
+
+.text-cart {
+    margin: 20px auto;
+
+}
+
+.photo-product {
+    width: 50px;
+    height: 50px;
+}
+
+.info-product {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.product-list {
+    display: grid;
+    flex: 1;
+    gap: 20px;
+
+}
+
+
+
+.info {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+
+.name-product {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+
+}
+
+.check {
+    width: 16px;
+    height: 16px;
+}
+
+.calculate {
+    display: grid;
+    gap: 15px;
+    width: 320px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.voucher {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex: 1
+    
+}
+
+.btn-voucher {
+    white-space: nowrap;
+    width: 75px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.pay {
+    background-color: #FFFFFF;
+    width: 320px;
+    display: grid;
+    padding: 15px 10px;
+    gap: 15px;
+    border-radius: 10px;
+
+}
+
+.info-bill {
+    grid-template-columns: 1fr;
+    display: grid;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+    padding-top:15px;
+    padding-bottom: 15px;
+    gap:18px;
+}
+
+.bill {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-bill {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.vat {
+    margin-top: 8px;
+    text-align: end;
+}
+
+.input {
+    width: 100%;
+}
