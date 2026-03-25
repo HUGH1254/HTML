@@ -3,7 +3,16 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 40px;
     }
+    .photo-train {
+        width:100%
+    }
+    .text-student:nth-child(2n) {
+    border: 0;
+}
 
+    .container.train{
+        grid-template-columns: 1fr;
+    }
     .hero {
 
         text-align: center;
@@ -52,18 +61,44 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px
     }
-
+    .topic-item {
+    flex: 0 0 calc((100% / 3) - (40px / 3));
+    }
+    .tutorial-item {
+    flex: 0 0 calc((100% / 3) - (40px / 3));}
+    .text-lexicon
+ {
+    flex: 0 0 calc((100% / 2) - (14px / 2));
 }
-
+}
 @media (max-width:767px) {
+    .time-btn .time-exam {
+    position: relative;
+    top: 56px;
+}
+.container.mw-1200.flex.g-50{
+    flex-wrap: wrap;
+}
+     .topic-item {
+    flex: 0 0 calc(( 100% / 2 ) - ( 20px / 2));
+    }
+    .tutorial-item {
+    flex:100%;}
+    .flex-3-40 {
+    flex: 100%;}
+    .mw-1030.container.flex.g-100  {
+        flex-wrap: wrap;
+    }
     .khung {
         flex-direction: column;
     }
-
+       .text-student {
+    border: 0;
+    }
     .calculate {
         width: 100%;
     }
-
+   
     .info-bill {
         width: 100%;
     }
