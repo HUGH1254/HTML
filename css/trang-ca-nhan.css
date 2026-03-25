@@ -1,7 +1,6 @@
-.main-section .container {
+.mw-1030.container{
     max-width: 1030px;
 }
-
 .profile {
     flex: 1;
     flex-direction: column;

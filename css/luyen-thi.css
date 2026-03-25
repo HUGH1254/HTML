@@ -1,13 +1,13 @@
-.container {
-    max-width: 1200px !important;
+.mw-1200.container{
+    max-width: 1200px;
 }
 .time-btn {
+height: 92px;
 width: 120px;
 z-index: 101;
 position: relative;
-z-index: 100px;
 }
-.time-btn .time{
+.time-btn .time-exam{
     position: fixed;
     top:56px
 }

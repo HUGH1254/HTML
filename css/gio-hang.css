@@ -1,9 +1,8 @@
-.container {
-    max-width: 1130px !important;
+.container.mw-1130{
+    max-width: 1130px;
 }
-
-
 .cart {
+    
     margin-top: 100px;
     display: flex;
     align-items: start;
@@ -104,9 +103,12 @@
 
 .btn-voucher {
     white-space: nowrap;
-    width: 75px;
+    height: 35px;
     border-radius: 3px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .pay {
