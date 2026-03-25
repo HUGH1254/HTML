@@ -13,6 +13,7 @@
     gap: 15px;
     align-items: center;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .text-trans .image {
@@ -30,7 +31,6 @@
 
 .time {
     background-color: #D9D9D966;
-    gap: 10px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -75,6 +75,6 @@
 }
 
 .thank {
-    min-height: 100%;
+    min-height: 500px;
     padding: 50px;
 }

@@ -168,6 +168,10 @@ a {
     display: none;
 
 }
+.image-icon{
+    width: 100%;
+    height: 100%;
+}
 
 .menu label {
     width: 25px;
@@ -581,6 +585,7 @@ a {
     padding-right: 15px;
     border: unset;
     cursor: pointer;
+    color: #12121299;
 }
 
 .tab-course:hover {
@@ -589,6 +594,7 @@ a {
 
 .active {
     background-color: orange;
+    color: #121212;
 }
 
 .package-list {
@@ -619,7 +625,7 @@ a {
     z-index: 10;
 }
 
-.package-label.disable:hover {
+.package-label.enable:hover {
     transform: scale(1.1);
 }
 
@@ -648,28 +654,16 @@ a {
 }
 
 .best-package {
-
-
-
-    text-align: center;
+   text-align: center;
     margin: 0px auto;
 }
-
-
-
-.package-label.disable {
+.package-label.enable {
     border: 1px solid #F4B00C;
 }
 
-.package-label.disable .text-best-package {
+.package-label.enable .text-best-package {
     display: block
 }
-
-
-
-
-
-
 .sale {
     display: grid;
     gap: 5px;
@@ -738,7 +732,10 @@ a {
     gap: 100px;
     color: unset;
 }
-
+.icon-faq{
+    width: 25px;
+    height: 25px;
+}
 .footer {
     display: flex;
     background-color: black;

@@ -80,6 +80,7 @@
     flex: 0 0 calc((100% / 4) - (80px / 4));
     border-radius: 20px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .text-tutorial {
@@ -88,10 +89,6 @@
     padding-top: 15px;
     padding-bottom: 50px;
     padding: 15px 20px 50px 20px;
-}
-
-.photo-tutorial .image {
-    border-radius: 20px 20px 0px 0px;
 }
 
 .content {
