@@ -1,0 +1,150 @@
+.train {
+    gap: 50px;
+}
+
+.photo-train {
+    width: 650px;
+    height: 350px;
+
+}
+
+.photo-train img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text-train {
+    display: grid;
+    gap: 20px
+}
+
+.topic {
+    margin-top: 50px;
+}
+
+.topic .flex-center-column {
+    gap: 15px
+}
+
+.topic-item {
+    flex: 0 0 calc((100% / 5) - (80px / 5));
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    cursor: pointer;
+}
+
+.topic-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid-vocabulary.container {
+    gap: 0;
+    margin-top: 0;
+}
+.text-student {
+    border-right: 1px solid #00000066;
+}
+
+.text-student:nth-child(4) {
+    border: 0;
+}
+
+.tutorial {
+    gap: 50px;
+}
+
+.tutorial-menu {
+    gap: 15px;
+    justify-content: start;
+}
+
+.tutorial-menu .btn-voucher {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #F4B00C33;
+}
+
+.tutorial-item {
+    flex: 0 0 calc((100% / 4) - (80px / 4));
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text-tutorial {
+    display: grid;
+    gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding: 15px 20px 50px 20px;
+}
+
+.photo-tutorial .image {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    height: 250px;
+    background-color: #F4B00C33;
+    display: grid;
+    margin-top: 73px;
+}
+
+.text-content {
+    gap: 30px;
+    align-items: start;
+}
+
+.text-content .flex {
+    gap: 20px;
+}
+
+.rate .flex {
+    gap: 10px;
+
+}
+
+.rate .image {
+    width: 16px;
+    height: 16px;
+}
+
+.lexicon {
+    gap: 14px
+}
+
+.text-lexicon {
+    padding: 30px 20px;
+    flex: 0 0 calc((100% / 4) - (32px / 4));
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.communicate {
+    gap: 50px;
+}
+
+.relate-item {
+    flex: 0 0 calc((100% / 3) - (40px / 3));
+    border-radius: 20px;
+}
+.container.communicate{
+    max-width: 1030px;
+}
+.text-content.container{
+    max-width: 1030px;
+}
+.btn-content{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
