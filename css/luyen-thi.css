@@ -15,6 +15,7 @@ position: relative;
     padding: 10px 20px;
     border-radius: 5px;
 }
+
 .text-test{
      align-items: center;
      gap:5px ; 
@@ -109,4 +110,8 @@ span.red-brown{
     padding: 10px;
     border-radius: 5px;
     border: none;
+}
+.answer::placeholder{
+    font-size: 14px;
+    font-weight: 300;
 }
