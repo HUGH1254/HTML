@@ -41,6 +41,8 @@ input:checked + label .icon-text{
     border: 1px solid #950A21;
 }
 .test{
+    display: flex;
+    flex-direction: column;
     padding: 20px 25px;
     border-radius: 10px;
     margin-bottom: 10px;

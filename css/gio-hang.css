@@ -46,7 +46,7 @@
     display: grid;
     flex: 1;
     gap: 20px;
-
+    
 }
 
 
@@ -55,7 +55,6 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
-
 }
 
 .name-product {
