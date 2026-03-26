@@ -27,7 +27,10 @@
     .hero-text {
         width: 100%;
     }
-
+    .photo-aw{
+        border-radius: 20px;
+        overflow: hidden;
+    }
 
     .title-features {
         text-align: center;
@@ -185,7 +188,14 @@
     .time-btn .time-exam {
         position: relative;
     }
-   
+   .icon-text{
+        display: none;
+    }
+    .photo-test{
+        border-radius: 10px ;
+        overflow: hidden;
+        height: 100%;  /* xóa đi là oke */
+    }
 }
 
 @media (max-width:320px) {
