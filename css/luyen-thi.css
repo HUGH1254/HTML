@@ -32,7 +32,7 @@ position: relative;
     margin-top: 56px;
     }
 input[type="radio"],input[type="checkbox"]{
-   /* display: none;  */
+   display: none; 
 }
 .test-label:checked + label{
     color: #950A21;
