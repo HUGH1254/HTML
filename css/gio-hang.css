@@ -153,17 +153,17 @@
 .ak-4{
     width: 16px;
     height: 16px;
-    
-    position: relative;
+    position: relative; 
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
 }
-.check{
+
+.label-checkbox{
     width: 16px;
     height: 16px;
     position: absolute;
-}
-.label-checkbox{
-    position: absolute;
-    visibility: hidden;
+    z-index: 3;
 }
 .label-checkbox::before{
     content: "";
@@ -172,19 +172,18 @@
     height: 16px;
     background-color: orange;
     z-index: 1;
-    border-radius: 5px;
-   
+    visibility: hidden;
 }
 .label-checkbox::after{
     content: "";
     position: absolute;
     width: 16px;
     height: 16px;
-    top:1px;
     background-image: url(/icon/tick-white.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center;
     z-index: 2;
+    visibility: hidden;
 }
 .check:checked + .label-checkbox::after {
     visibility: visible;
