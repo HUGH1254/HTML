@@ -32,13 +32,13 @@ position: relative;
     margin-top: 56px;
     }
 input[type="radio"],input[type="checkbox"]{
-   display: none; 
+   /* display: none;  */
 }
-input:checked + label{
+.test-label:checked + label{
     color: #950A21;
     
 }
-input:checked + label .icon-text{
+.test-label:checked + label .icon-text{
     border: 1px solid #950A21;
 }
 .test{

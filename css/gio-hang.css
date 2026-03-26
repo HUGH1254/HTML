@@ -72,10 +72,7 @@
 
 }
 
-.check {
-    width: 16px;
-    height: 16px;
-}
+
 
 .calculate {
     display: grid;
@@ -152,4 +149,46 @@
 
 .input {
     width: 100%;
+}
+.ak-4{
+    width: 16px;
+    height: 16px;
+    
+    position: relative;
+}
+.check{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+.label-checkbox{
+    position: absolute;
+    visibility: hidden;
+}
+.label-checkbox::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: orange;
+    z-index: 1;
+    border-radius: 5px;
+   
+}
+.label-checkbox::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top:1px;
+    background-image: url(/icon/tick-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+.check:checked + .label-checkbox::after {
+    visibility: visible;
+}
+.check:checked + .label-checkbox::before {
+    visibility: visible;
 }
