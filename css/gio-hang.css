@@ -181,6 +181,7 @@
     height: 16px;
     background-image: url(/icon/tick-white.svg);
     background-repeat: no-repeat;
+    background-size: 50% ;
     background-position: center;
     z-index: 2;
     visibility: hidden;
