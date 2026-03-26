@@ -81,9 +81,7 @@
 }
 
 @media (max-width:768px) {
-    .time-btn .time-exam {
-        position: relative;
-    }
+    
     .aw{
         grid-template-columns: 1fr;
     }
@@ -183,7 +181,12 @@
     }
     .info{  flex-wrap: wrap}
 }
-
+@media (max-width:470px){
+    .time-btn .time-exam {
+        position: relative;
+    }
+   
+}
 
 @media (max-width:320px) {
     .package-item{
