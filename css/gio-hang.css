@@ -154,9 +154,6 @@
     width: 16px;
     height: 16px;
     position: relative; 
-    border-radius: 5px;
-    border: 1px solid black;
-    overflow: hidden;
 }
 
 .label-checkbox{
@@ -164,6 +161,10 @@
     height: 16px;
     position: absolute;
     z-index: 3;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .label-checkbox::before{
     content: "";
@@ -191,4 +192,7 @@
 }
 .check:checked + .label-checkbox::before {
     visibility: visible;
+}
+.check:checked + .label-checkbox {
+   border:none;
 }
