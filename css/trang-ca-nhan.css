@@ -90,9 +90,6 @@ input::placeholder {
 .ovfx-scroll{
     overflow-x: auto;
 }
-.profile.sub{
-    padding: 20px 50px
-}
 .info-class {
     padding: 10px 15px;
     border-radius: 10px;
@@ -102,7 +99,6 @@ input::placeholder {
 .input-profile {
     width:100%;
 }
-
 .table {
     width: 100%;
     border-collapse: collapse;
