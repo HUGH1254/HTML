@@ -88,7 +88,7 @@ input::placeholder {
 
 }
 .ovfx-scroll{
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 .profile.sub{
     padding: 20px 50px
@@ -106,23 +106,18 @@ input::placeholder {
 .table {
     width: 100%;
     border-collapse: collapse;
-    border-spacing: 40px 10px;
-    border: 10px solid #D9D9D966;
 }
 .table th{
 gap: 10px;
 border-bottom: 1px solid #D9D9D966;
 padding-top: 15px;
 padding-bottom: 10px;
-white-space: nowrap;
 }
 .table td{
 min-width: 140px;
 border-bottom: 1px solid #D9D9D966;
 padding-top: 10px;
 padding-bottom: 10px;
-white-space: nowrap;
-
 }
 .table .g-10{
     align-items: center;

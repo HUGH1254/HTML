@@ -81,6 +81,10 @@
     .text-lexicon {
         flex: 0 0 calc((100% / 2) - (14px / 2));
     }
+    .photo-test{
+        border-radius: 20px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width:768px) {
@@ -199,7 +203,7 @@
     .photo-test{
         border-radius: 10px ;
         overflow: hidden;
-        height: 100%;  /* xóa đi là oke */
+        height: 100%;
     }
 }
 
@@ -213,4 +217,5 @@
     .topic-item{
         flex:100%
     }
+    
 }
