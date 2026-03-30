@@ -84,7 +84,10 @@
 }
 
 @media (max-width:768px) {
-    
+    .btn-profile{
+        width: 100%;
+        justify-content: center;
+    }
     .aw{
         grid-template-columns: 1fr;
     }

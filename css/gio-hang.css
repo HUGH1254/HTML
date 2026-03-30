@@ -89,7 +89,9 @@
     justify-content: space-between;
     flex: 1;
 }
-
+.voucher .input {
+    height: 35px;
+}
 .btn-voucher {
     white-space: nowrap;
     height: 35px;
@@ -98,6 +100,7 @@
     padding-right: 10px;
     border: none;
     cursor: pointer;
+    color:#FFFFFF;
 }
 
 .pay {
@@ -142,6 +145,8 @@
 
 .input {
     width: 100%;
+    padding: 10px; 
+    border: 1px solid #D9D9D999;
 }
 .ak-4{
     width: 16px;
