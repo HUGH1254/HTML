@@ -70,8 +70,8 @@ input::placeholder {
     position: absolute;
     z-index: 101;
     right: 12px;
-    top: 50%;
-    transform:translateY(-50%);
+    top: calc(50% + 5px);
+    transform:translateY(-50%) ;
     pointer-events: none;
 }
 .box-input .input{
