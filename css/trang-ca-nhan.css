@@ -70,17 +70,16 @@ input::placeholder {
     position: absolute;
     z-index: 101;
     right: 12px;
-    top: calc(50% + 5px);
+    top: calc(50% );
     transform:translateY(-50%) ;
     pointer-events: none;
 }
 .box-input .input{
     height: 40px;
 }
-.box-input .input {
-    margin-top: 10px;
+.box-input .text-15-300{
+    margin-bottom: 10px;
 }
-
 .info-profile.sub {
     padding: 20px 30px;
     border: 1px solid #E8EDF2;
