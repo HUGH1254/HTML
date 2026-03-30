@@ -193,6 +193,11 @@
     }
     .info{  flex-wrap: wrap}
 }
+@media  (max-width:700px){
+    .time-btn .time-exam{
+        position: relative;
+    }
+}
 @media (max-width:470px){
     .time-btn .time-exam {
         position: relative;
