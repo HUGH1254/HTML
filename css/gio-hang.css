@@ -60,20 +60,14 @@
 .name-product {
     display: flex;
     gap: 10px;
-    flex: 1;
 
 }
 
 .name {
     display: flex;
     flex-direction: column;
-    flex: 1;
-
-
+    flex: 0 0 15vw;
 }
-
-
-
 .calculate {
     display: grid;
     gap: 15px;
@@ -93,8 +87,7 @@
     display: flex;
     gap: 5px;
     justify-content: space-between;
-    flex: 1
-    
+    flex: 1;
 }
 
 .btn-voucher {
