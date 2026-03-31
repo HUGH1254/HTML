@@ -27,11 +27,16 @@
 }
 
 .topic .flex-center-column {
-    gap: 15px
+    gap: 15px;
+    text-align: center;
+}
+.tutorial .title-tutorial{
+    text-align: center;
+    gap:15px;
 }
 
 .topic-item {
-    flex: 0 0 calc((100% / 5) - (80px / 5));
+    flex: 0 0 calc((100% / 5) - (100px / 5));
     border-radius: 20px;
     text-align: center;
     padding-top: 61px;
@@ -42,7 +47,7 @@
 .topic-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
 
 .grid-vocabulary.container {
@@ -89,7 +94,7 @@
 
 .text-tutorial {
     display: grid;
-    gap: 30px;
+    gap: 10px;
     padding: 15px 20px 50px 20px;
 }
 
@@ -124,7 +129,8 @@
 }
 
 .lexicon {
-    gap: 14px
+    gap: 14px;
+    margin-top:20px
 }
 
 .text-lexicon {
@@ -138,8 +144,10 @@
 .communicate {
     gap: 50px;
 }
-
-.flex-3-40 {
+.topic-list.flex-3-40{
+    gap:20px;
+}
+.topic-list .flex-3-40{
     flex: 0 0 calc((100% / 3) - (40px / 3));
     border-radius: 20px;
 }

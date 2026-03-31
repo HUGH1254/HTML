@@ -27,7 +27,15 @@ html {
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mt-60{
+    margin-top: 60px;
+}
 .mt-70 {
     margin-top: 70px;
 }
@@ -120,11 +128,6 @@ html {
 .mt-200 {
     margin-top: 200px;
 }
-
-.mt-140 {
-    margin-top: 140px;
-}
-
 .flex {
     display: flex;
 }
@@ -395,11 +398,14 @@ a {
 .features {
     display: flex;
 
-    background-image: url('img/bg-futures.png');
+    background-image: url('/img/bg-futures.png');
     justify-content: space-between;
 
 }
 
+.features .container{
+    margin: 87px auto;
+}
 
 
 .title-features {
@@ -408,7 +414,7 @@ a {
     justify-content: space-between;
     overflow: hidden;
     margin-bottom: 20px;
-
+  
 }
 
 .title-features p {
@@ -456,11 +462,15 @@ a {
     width: 800px;
     justify-self: center;
     text-align: center;
-    margin: 30px auto;
 }
-
+.package-list.mt-10 {
+    gap:25px;
+}
 .text-photo {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo-item {
@@ -545,43 +555,51 @@ a {
 }
 .star {
     display: flex;
-    margin: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .comment-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
-
+    gap: 30px;
+       
 }
-
-
+.icon-10{
+    width: 10px;
+    height: 10px;
+}
 .comment-item {
-    flex: 0 0 calc((100% / 3) - (40px / 3));
-    padding: 20px;
+    flex: 0 0 calc((100% / 3) - (60px / 3));
+    padding: 30px;
     border: 5px solid whitesmoke;
     border-radius: 20px;
-    line-height: 1.5;
     background-color: white;
     overflow: hidden;
     text-align: start;
+    gap:10px;
+    padding-bottom: 64px;
+}
+.comment-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:14px;
+}
+.comment-dots .active{
+    width: 32px;
+}
+.comment-dots .icon-10{
+   border-radius: 50px;
+}
+.comment-item .text-15-400{
+    margin-top: 10px;
 }
 
-.comment-item h1 {
-    margin: 20px;
-    margin-top: 0;
-}
-
-.comment-item h3 {
-    margin: 20px;
-}
 
 .package-text {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .package {
@@ -615,10 +633,14 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-
+    gap: 75px;
 }
-
+.package-list.mt-50{
+    gap:25px;
+}
+.package-label.flex-3-25{
+    flex: 0 0 calc((100% / 3) - (50px /3));
+}
 .package-item {
     border-radius: 20px;
     display: grid;
@@ -635,7 +657,7 @@ a {
     border-radius: 20px;
     position: relative;
     transition: transform .2s;
-    flex: 0 0 calc((100% / 3) - (40px /3));
+    flex: 0 0 calc((100% / 3) - (150px /3));
     z-index: 10;
 }
 
@@ -736,7 +758,6 @@ background-color: #FFFFFFCC;
 .btn-package {
     height: 40px;
     border-radius: 10px;
-    margin: 10px auto;
     border: none;
 }
 
@@ -756,7 +777,7 @@ background-color: #FFFFFFCC;
     border: 1px solid #C2C2C2;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px auto;
+    margin-top: 20px;
 }
 
 .title-faq {
@@ -788,8 +809,8 @@ background-color: #FFFFFFCC;
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-
+    gap: 27px;
+    justify-content: space-around;
 }
 
 .text-footer {
@@ -797,7 +818,6 @@ background-color: #FFFFFFCC;
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .contacts {

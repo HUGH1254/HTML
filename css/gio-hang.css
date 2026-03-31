@@ -12,7 +12,7 @@
     flex: 1;
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 0px 15px;
+    padding: 20px 15px;
 }
 
 .khung {
@@ -32,10 +32,7 @@
     position: absolute;
     right: 0;
 }
-.text-cart {
-    margin: 20px auto;
 
-}
 
 .photo-product {
     width: 50px;
@@ -129,8 +126,8 @@
     margin-right: auto;
     border-bottom: 1px solid #D9D9D9;
     border-top: 1px solid #D9D9D9;
-    padding-top:15px;
-    padding-bottom: 15px;
+    padding-top:24px;
+    padding-bottom: 24px;
     gap:18px;
 }
 
@@ -148,6 +145,7 @@
 .vat {
     margin-top: 8px;
     text-align: end;
+    opacity: 0.6;
 }
 
 .input {

@@ -21,8 +21,11 @@ position: relative;
      align-items: center;
      gap:5px ; 
 }
+.exam .aw-text{
+    flex:1;
+}
 .icon-text{
-    flex : 0 0 18px ;
+    width: 18px;
     border: 1px solid #D9D9D9;
     border-radius: 100px;
     height: 18px;
