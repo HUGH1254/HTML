@@ -214,22 +214,25 @@
         height: 150px;
     }
 }
+@media  (max-width:600px){
+      .mw-1030.container.flex.g-100 {
+        flex-direction: column;
+    }
+}
 @media (max-width:470px){
       .photo-aw{
         min-width: auto;
         height: 100px;
     }
    .icon-text{
-        display: none;
+        /* display: none; */
     }
     .photo-test{
         border-radius: 10px ;
         overflow: hidden;
         height: 100%;
     }
-      .mw-1030.container.flex.g-100 {
-        flex-direction: column;
-    }
+    
     .hero-text .text-60-600{
         font-size: clamp(1.8rem,10vw,8rem);
     }
