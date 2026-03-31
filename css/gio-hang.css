@@ -16,6 +16,7 @@
 }
 
 .khung {
+    position: relative;
     display: flex;
     gap: 30px;
 }
@@ -73,8 +74,7 @@
     flex: 0 0 15vw;
 }
 .calculate {
-    display: grid;
-    gap: 15px;
+
     width: 320px;
 }
 
@@ -114,7 +114,7 @@
     padding: 15px 10px;
     gap: 15px;
     border-radius: 10px;
-
+    margin-top: 15px;
 }
 
 .info-bill {
