@@ -23,9 +23,12 @@
     display: flex;
     flex:1;
     gap: 15px;
-    position: relative;
 }
 .price .icon-14{
+    position: relative;
+    margin-left: auto;
+}
+.price .image-icon{
     position: absolute;
     right: 0;
 }
