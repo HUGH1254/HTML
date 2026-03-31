@@ -21,9 +21,14 @@
 }
 .price {
     display: flex;
+    flex:1;
     gap: 15px;
+    position: relative;
 }
-
+.price .icon-14{
+    position: absolute;
+    right: 0;
+}
 .text-cart {
     margin: 20px auto;
 
@@ -54,7 +59,6 @@
 .info {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
 }
 
 .name-product {
