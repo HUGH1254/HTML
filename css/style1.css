@@ -6,6 +6,9 @@
     .profile.sub{
     padding: 10px
     }
+    .lexicon {
+    flex-wrap: wrap;
+    }
     .photo-train {
         width: 100%
     }
@@ -17,8 +20,8 @@
     .container.train {
         grid-template-columns: 1fr;
     }
-    .mw-1030.container{
-        gap:10px
+    .mw-1030.container.flex.g-100{
+        gap:10px;
     }
     .hero {
 
@@ -232,5 +235,7 @@
     .topic-item{
         flex:100%
     }
-    
+    .text-lexicon {
+    flex : 0 0 100%
+    }
 }
