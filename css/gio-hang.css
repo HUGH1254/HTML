@@ -2,7 +2,7 @@
     max-width: 1130px;
 }
 .cart {
-    
+   
     margin-top: 100px;
     display: flex;
     align-items: start;
@@ -13,12 +13,13 @@
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 20px 15px;
+    min-height: 450px;
 }
 
 .khung {
-    position: relative;
     display: flex;
     gap: 30px;
+    align-items: flex-start;
 }
 .price {
     display: flex;
@@ -74,8 +75,10 @@
     flex: 0 0 15vw;
 }
 .calculate {
-
+    position: sticky;
     width: 320px;
+    top:100px;
+    
 }
 
 .discount {
