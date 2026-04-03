@@ -97,11 +97,11 @@
     }
 
     .topic-item {
-        flex: 0 0 calc((100% / 3) - (40px / 3));
+        flex: 0 0 calc((100% / 3) - (50px / 3));
     }
 
     .tutorial-item {
-        flex: 0 0 calc((100% / 3) - (40px / 3));
+        flex: 0 0 calc((100% / 3) - (50px / 3));
     }
 
     .text-lexicon {
@@ -150,7 +150,7 @@
         flex: 100%;
     }
 
-    .flex-3-40 {
+    .topic-list .flex-3-40 {
         flex: 100%;
     }
 
