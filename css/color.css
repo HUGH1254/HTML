@@ -29,21 +29,26 @@
 .red {
     color: #FF2D55;
 }
-.ef-text-yellow-red{
-   background: linear-gradient(90deg, #F4B00C 9.13%, #950A21 100%);
+
+.ef-text-yellow-red {
+    background: linear-gradient(90deg, #F4B00C 9.13%, #950A21 100%);
     background-clip: text;
     background-size: cover;
     color: transparent;
 }
+
 .blue {
     color: #0073FB;
 }
-.b-light-blue{
+
+.b-light-blue {
     background-color: #1E88E51A;
 }
-.b-light-red{
+
+.b-light-red {
     background-color: #E9706F33;
 }
+
 .br-body {
     background-color: #f5f5f5;
 }
@@ -63,12 +68,15 @@
 .purple {
     color: #BE00BB
 }
-.b-grey{
+
+.b-grey {
     background-color: #D9D9D933;
 }
-.br-desktop{
+
+.br-desktop {
     background-color: #444444;
 }
-.b-orange-op{
+
+.b-orange-op {
     background-color: #FDC02D1A;
 }

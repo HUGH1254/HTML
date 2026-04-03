@@ -3,12 +3,15 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 40px;
     }
-    .profile.sub{
-    padding: 10px
+
+    .profile.sub {
+        padding: 10px
     }
+
     .lexicon {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
+
     .photo-train {
         width: 100%
     }
@@ -16,24 +19,30 @@
     .text-student:nth-child(2n) {
         border: 0;
     }
-    .container.mw-1200.flex.g-50.--01{
+
+    .container.mw-1200.flex.g-50.--01 {
         flex-direction: column;
     }
-    .time-btn  {
-    position: sticky;
+
+    .time-btn {
+        position: sticky;
     }
-      .time-btn .time-exam {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 10px 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .time-btn .time-exam {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 10px 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
     .container.train {
         grid-template-columns: 1fr;
     }
-    .mw-1030.container.flex.g-100{
-        gap:10px;
+
+    .mw-1030.container.flex.g-100 {
+        gap: 10px;
     }
+
     .hero {
 
         text-align: center;
@@ -43,7 +52,8 @@
     .hero-text {
         width: 100%;
     }
-    .photo-aw{
+
+    .photo-aw {
         border-radius: 20px;
         overflow: hidden;
     }
@@ -97,33 +107,39 @@
     .text-lexicon {
         flex: 0 0 calc((100% / 2) - (14px / 2));
     }
-    .photo-test{
+
+    .photo-test {
         border-radius: 20px;
         overflow: hidden;
     }
 }
 
 @media (max-width:768px) {
-    .btn-profile{
+    .btn-profile {
         width: 100%;
         justify-content: center;
-        
+
     }
-    .grid-2.aw-list .flex.mt-20{
+
+    .grid-2.aw-list .flex.mt-20 {
         flex-wrap: wrap;
-    } 
-    .aw-list{
+    }
+
+    .aw-list {
         grid-template-columns: 1fr;
     }
+
     .photo-test {
-    width: 100%;
+        width: 100%;
     }
+
     .container.mw-1200.flex.g-50 {
         flex-wrap: wrap;
     }
+
     .pay {
-    gap:0;
-    width: 100%;
+        gap: 0;
+        width: 100%;
     }
 
     .topic-item {
@@ -137,12 +153,12 @@
     .flex-3-40 {
         flex: 100%;
     }
-    
+
 
     .khung {
         flex-direction: column;
     }
-  
+
     .text-student {
         border: 0;
     }
@@ -174,8 +190,9 @@
     .hero-image {
         display: none;
     }
-    .btn-hero{
-        margin-bottom:50px;
+
+    .btn-hero {
+        margin-bottom: 50px;
     }
 
 
@@ -206,56 +223,69 @@
 
         gap: 30px;
     }
-    .info{  flex-wrap: wrap}
+
+    .info {
+        flex-wrap: wrap
+    }
 }
-@media  (max-width:700px){
-    .photo-aw{
+
+@media (max-width:700px) {
+    .photo-aw {
         min-width: 200px;
         height: 150px;
     }
 }
-@media  (max-width:600px){
-      .mw-1030.container.flex.g-100 {
+
+@media (max-width:600px) {
+    .mw-1030.container.flex.g-100 {
         flex-direction: column;
     }
 }
-@media (max-width:470px){
-      .photo-aw{
+
+@media (max-width:470px) {
+    .photo-aw {
         min-width: auto;
         height: 100px;
     }
-   .icon-text{
+
+    .icon-text {
         /* display: none; */
     }
-    .photo-test{
-        border-radius: 10px ;
+
+    .photo-test {
+        border-radius: 10px;
         overflow: hidden;
         height: 100%;
     }
-    
-    .hero-text .text-60-600{
-        font-size: clamp(1.8rem,10vw,8rem);
+
+    .hero-text .text-60-600 {
+        font-size: clamp(1.8rem, 10vw, 8rem);
     }
-    .hero-text .text-30-600{
-        font-size: clamp(1rem,1vw,8rem);
+
+    .hero-text .text-30-600 {
+        font-size: clamp(1rem, 1vw, 8rem);
     }
-    .photo-aw{
+
+    .photo-aw {
         min-width: auto;
     }
 }
 
 @media (max-width:320px) {
-   
-    .package-item{
-        gap:10px;
+
+    .package-item {
+        gap: 10px;
     }
-    .container.mw-1130{
+
+    .container.mw-1130 {
         padding: 0;
     }
-    .topic-item{
-        flex:100%
+
+    .topic-item {
+        flex: 100%
     }
+
     .text-lexicon {
-    flex : 0 0 100%
+        flex: 0 0 100%
     }
 }

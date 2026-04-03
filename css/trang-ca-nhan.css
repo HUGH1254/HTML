@@ -1,6 +1,7 @@
-.mw-1030.container{
+.mw-1030.container {
     max-width: 1030px;
 }
+
 .profile {
     flex: 1;
     flex-direction: column;
@@ -33,17 +34,21 @@
     position: relative;
     z-index: 10;
 }
-.box-input{
+
+.box-input {
     height: 70px;
 }
+
 .list-choice {
     flex-direction: column;
     width: 200px;
 }
-.list-choice .text-17-400:hover{
+
+.list-choice .text-17-400:hover {
     color: #FCBD28;
     text-decoration: underline;
 }
+
 .info-profile {
     flex-direction: column;
     align-items: start;
@@ -55,8 +60,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
     -webkit-appearance: none;
 }
-input[type="text"]:focus{
- outline: unset;
+
+input[type="text"]:focus {
+    outline: unset;
 }
 
 input::placeholder {
@@ -70,25 +76,30 @@ input::placeholder {
     position: absolute;
     z-index: 101;
     right: 12px;
-    top: calc(50% );
-    transform:translateY(-50%) ;
+    top: calc(50%);
+    transform: translateY(-50%);
     pointer-events: none;
 }
-.box-input .input{
+
+.box-input .input {
     height: 40px;
 }
-.box-input .text-15-300{
+
+.box-input .text-15-300 {
     margin-bottom: 10px;
 }
+
 .info-profile.sub {
     padding: 20px 30px;
     border: 1px solid #E8EDF2;
     border-radius: 20px;
 
 }
-.ovfx-scroll{
+
+.ovfx-scroll {
     overflow-x: auto;
 }
+
 .info-class {
     padding: 10px 15px;
     border-radius: 10px;
@@ -96,31 +107,37 @@ input::placeholder {
 }
 
 .input-profile {
-    width:100%;
+    width: 100%;
 }
+
 .table {
     width: 100%;
     border-collapse: collapse;
 }
-.table th{
-gap: 10px;
-border-bottom: 1px solid #D9D9D966;
-padding-top: 15px;
-padding-bottom: 10px;
+
+.table th {
+    gap: 10px;
+    border-bottom: 1px solid #D9D9D966;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
-.table td{
-min-width: 140px;
-border-bottom: 1px solid #D9D9D966;
-padding-top: 10px;
-padding-bottom: 10px;
+
+.table td {
+    min-width: 140px;
+    border-bottom: 1px solid #D9D9D966;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.table .g-10{
+
+.table .g-10 {
     align-items: center;
 }
-.profile.class{
+
+.profile.class {
     padding: 20px 30px;
 }
-.icon-play{
+
+.icon-play {
     cursor: pointer;
     border: none;
     border-radius: 100px;

@@ -32,6 +32,7 @@
     font-size: 40px;
     font-weight: 600;
 }
+
 .text-80-700 {
     font-size: 80px;
     font-weight: 700;
@@ -159,11 +160,13 @@
     font-size: 15px;
     font-weight: 300
 }
-.text-9-400{
+
+.text-9-400 {
     font-size: 9px;
     font-weight: 400;
 }
-.text-13-400{
+
+.text-13-400 {
     font-size: 13px;
     font-weight: 400;
 }

@@ -1,8 +1,9 @@
-.container.mw-1130{
+.container.mw-1130 {
     max-width: 1130px;
 }
+
 .cart {
-   
+
     margin-top: 100px;
     display: flex;
     align-items: start;
@@ -21,16 +22,19 @@
     gap: 30px;
     align-items: flex-start;
 }
+
 .price {
     display: flex;
-    flex:1;
+    flex: 1;
     gap: 15px;
 }
-.price .icon-14{
+
+.price .icon-14 {
     position: relative;
     margin-left: auto;
 }
-.price .image-icon{
+
+.price .image-icon {
     position: absolute;
     right: 0;
 }
@@ -53,7 +57,7 @@
     display: grid;
     flex: 1;
     gap: 20px;
-    
+
 }
 
 
@@ -74,11 +78,12 @@
     flex-direction: column;
     flex: 0 0 15vw;
 }
+
 .calculate {
     position: sticky;
     width: 320px;
-    top:100px;
-    
+    top: 100px;
+
 }
 
 .discount {
@@ -96,9 +101,11 @@
     justify-content: space-between;
     flex: 1;
 }
+
 .voucher .input {
     height: 35px;
 }
+
 .btn-voucher {
     white-space: nowrap;
     height: 35px;
@@ -107,7 +114,7 @@
     padding-right: 10px;
     border: none;
     cursor: pointer;
-    
+
 }
 
 .pay {
@@ -129,13 +136,13 @@
     margin-right: auto;
     border-bottom: 1px solid #D9D9D9;
     border-top: 1px solid #D9D9D9;
-    padding-top:24px;
+    padding-top: 24px;
     padding-bottom: 24px;
-    gap:18px;
+    gap: 18px;
 }
 
 .bill {
-    
+
     display: flex;
     justify-content: space-between;
 }
@@ -153,17 +160,18 @@
 
 .input {
     width: 100%;
-    padding: 10px; 
+    padding: 10px;
     border: 1px solid #D9D9D999;
     border-radius: 5px
 }
-.ak-4{
+
+.ak-4 {
     width: 16px;
     height: 16px;
-    position: relative; 
+    position: relative;
 }
 
-.label-checkbox{
+.label-checkbox {
     width: 15px;
     height: 15px;
     position: absolute;
@@ -173,7 +181,8 @@
     border-radius: 5px;
     overflow: hidden;
 }
-.label-checkbox::before{
+
+.label-checkbox::before {
     content: "";
     position: absolute;
     width: 16px;
@@ -182,24 +191,28 @@
     z-index: 1;
     visibility: hidden;
 }
-.label-checkbox::after{
+
+.label-checkbox::after {
     content: "";
     position: absolute;
     width: 16px;
     height: 16px;
     background-image: url(/icon/tick-white.svg);
     background-repeat: no-repeat;
-    background-size: 50% ;
+    background-size: 50%;
     background-position: center;
     z-index: 2;
     visibility: hidden;
 }
-.check:checked + .label-checkbox::after {
+
+.check:checked+.label-checkbox::after {
     visibility: visible;
 }
-.check:checked + .label-checkbox::before {
+
+.check:checked+.label-checkbox::before {
     visibility: visible;
 }
-.check:checked + .label-checkbox {
-   border:none;
+
+.check:checked+.label-checkbox {
+    border: none;
 }
