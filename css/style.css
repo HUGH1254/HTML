@@ -10,7 +10,22 @@ body,
 html {
     overflow-x: hidden;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{line-height: auto;}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: auto;
+}
+
 .icon-63 {
     width: 63px;
     height: 63px;
@@ -163,9 +178,11 @@ a {
     color: unset;
     text-decoration: none;
 }
-p{
+
+p {
     margin-bottom: 0;
 }
+
 .border-header.b-white {
     max-height: 50px;
     position: fixed;
@@ -597,13 +614,7 @@ p{
     padding-bottom: 64px;
 }
 
-.comment-dots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    margin-top: 30px;
-}
+
 
 .comment-dots .icon-10 {
     border-radius: 50px;
@@ -870,20 +881,21 @@ p{
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .photo-grid .swiper-wrapper {
     transition-timing-function: linear !important;
 }
-.photo-grid{
+
+.photo-grid {
     pointer-events: none;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets{
-    bottom: auto;
-}
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
     width: 32px;
     border-radius: 50px;
     background: #F4B00C;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     transition: .3s;
 }
