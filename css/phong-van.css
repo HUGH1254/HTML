@@ -21,7 +21,7 @@
 
 .text-train {
     display: grid;
-    gap: 20px
+    gap: 5px;
 }
 
 .topic {
@@ -159,7 +159,7 @@
     border-radius: 20px;
 }
 
-.btn-content {
+.content .btn-content {
     padding: 10px 20px;
     border-radius: 20px;
 }

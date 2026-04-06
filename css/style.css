@@ -10,7 +10,7 @@ body,
 html {
     overflow-x: hidden;
 }
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{line-height: 0;}
 .icon-63 {
     width: 63px;
     height: 63px;
@@ -96,7 +96,7 @@ html {
 }
 
 .mt-5 {
-    margin-top: 5px;
+    margin-top: 5px !important;
 }
 
 .mt-15 {
