@@ -10,26 +10,35 @@
 }
 
 .product {
-    flex: 1;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 0px 15px;
+    padding: 20px 15px;
+    min-height: 450px;
 }
 
 .khung {
     display: flex;
     gap: 30px;
+    align-items: flex-start;
 }
 
 .price {
     display: flex;
+    flex: 1;
     gap: 15px;
 }
 
-.text-cart {
-    margin: 20px auto;
-
+.price .icon-14 {
+    position: relative;
+    margin-left: auto;
 }
+
+.price .image-icon {
+    position: absolute;
+    right: 0;
+}
+
 
 .photo-product {
     width: 50px;
@@ -46,7 +55,6 @@
 
 .product-list {
     display: grid;
-    flex: 1;
     gap: 20px;
 
 }
@@ -56,30 +64,25 @@
 .info {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
 }
 
 .name-product {
     display: flex;
     gap: 10px;
-    flex: 1;
 
 }
 
 .name {
     display: flex;
     flex-direction: column;
-    flex: 1;
-
-
+    flex: 0 0 15vw;
 }
 
-
-
 .calculate {
-    display: grid;
-    gap: 15px;
+    position: sticky;
     width: 320px;
+    top: 100px;
+
 }
 
 .discount {
@@ -95,7 +98,11 @@
     display: flex;
     gap: 5px;
     justify-content: space-between;
-    flex: 1
+    flex: 1;
+}
+
+.voucher .input {
+    height: 35px;
 }
 
 .btn-voucher {
@@ -106,6 +113,7 @@
     padding-right: 10px;
     border: none;
     cursor: pointer;
+
 }
 
 .pay {
@@ -115,7 +123,7 @@
     padding: 15px 10px;
     gap: 15px;
     border-radius: 10px;
-
+    margin-top: 15px;
 }
 
 .info-bill {
@@ -127,8 +135,8 @@
     margin-right: auto;
     border-bottom: 1px solid #D9D9D9;
     border-top: 1px solid #D9D9D9;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 18px;
 }
 
@@ -138,7 +146,7 @@
     justify-content: space-between;
 }
 
-.btn-bill {
+.btn.btn-bill {
     padding: 10px;
     border-radius: 10px;
 }
@@ -146,33 +154,31 @@
 .vat {
     margin-top: 8px;
     text-align: end;
+    opacity: 0.6;
 }
 
 .input {
     width: 100%;
+    padding: 10px;
+    border: 1px solid #D9D9D999;
+    border-radius: 5px
 }
 
 .ak-4 {
     width: 16px;
     height: 16px;
-
     position: relative;
 }
 
-.check {
-    width: 16px;
-    height: 16px;
-    position: absolute;
-}
-
-input[type="checkbox"] {
-    appearance: none;
-}
-
 .label-checkbox {
+    width: 15px;
+    height: 15px;
     position: absolute;
-    visibility: hidden;
+    z-index: 3;
     cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .label-checkbox::before {
@@ -182,8 +188,7 @@ input[type="checkbox"] {
     height: 16px;
     background-color: orange;
     z-index: 1;
-    border-radius: 5px;
-
+    visibility: hidden;
 }
 
 .label-checkbox::after {
@@ -191,12 +196,12 @@ input[type="checkbox"] {
     position: absolute;
     width: 16px;
     height: 16px;
-
     background-image: url(/icon/tick-white.svg);
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: 50%;
     background-position: center;
     z-index: 2;
+    visibility: hidden;
 }
 
 .check:checked+.label-checkbox::after {
@@ -205,4 +210,8 @@ input[type="checkbox"] {
 
 .check:checked+.label-checkbox::before {
     visibility: visible;
+}
+
+.check:checked+.label-checkbox {
+    border: none;
 }
