@@ -871,7 +871,6 @@ p{
     overflow: hidden;
 }
 .photo-grid .swiper-wrapper {
-    /* Ép hiệu ứng chuyển cảnh về dạng tuyến tính (không nhanh chậm) */
     transition-timing-function: linear !important;
 }
 .photo-grid{

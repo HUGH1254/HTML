@@ -308,11 +308,12 @@
       </section>
       <section class="comment mt-140 ">
         <p class="text-40-600">Cảm nhận của khách hàng</p>
-        <div class="container " >
-          <div class="mySwiper">
-            <div class="background-decamy">
+            <!-- <div class="background-decamy">
               <img src="img/plane.svg" alt="" class="plane" />
-            </div>
+            </div> -->
+        <div class="container" >
+          <div class="mySwiper swiper-container">
+            
             <div class="comment-list mt-70 swiper-wrapper">
               <div class="comment-item b-white swiper-slide">
                 <div class="star yellow">
@@ -868,6 +869,7 @@
 
 
     var swiper1 = new Swiper(".mySwiper", {
+        slidesPerView:3,
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
@@ -879,7 +881,23 @@
         el: ".swiper-pagination",
         clickable: true,
       },
-     
+     breakpoints: {
+        
+            576: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+           
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+         
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
     });
     
     </script>
