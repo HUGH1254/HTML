@@ -605,10 +605,6 @@ p{
     margin-top: 30px;
 }
 
-.comment-dots .active {
-    width: 32px;
-}
-
 .comment-dots .icon-10 {
     border-radius: 50px;
 }
@@ -880,4 +876,14 @@ p{
 }
 .photo-grid{
     pointer-events: none;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: auto;
+}
+.swiper-pagination-bullet-active{
+    width: 32px;
+    border-radius: 50px;
+    background: #F4B00C;
+}
+.swiper-pagination-bullets{
 }
