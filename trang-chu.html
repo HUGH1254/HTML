@@ -412,7 +412,7 @@
               </p>
             </div>
           </div>
-          <div class="swiper-pagination">
+          <div class="swiper-pagination comment-dots">
           </div>
         </div>
       </section>
@@ -860,7 +860,7 @@
         disableOnInteraction: false, // Tiếp tục chạy sau khi người dùng chạm vào
     },
     
-    speed: 5000,              // Tốc độ chạy (5000ms = 5 giây để trượt hết 1 slide)
+    speed: 50000,              // Tốc độ chạy (5000ms = 5 giây để trượt hết 1 slide)
     // Số càng lớn chữ chạy càng chậm và mượt.
 });
 // Viết ở cuối file, sau khi đã nhúng link JS
@@ -874,12 +874,12 @@
                     disableOnInteraction: false, // Quan trọng: Slide vẫn chạy tiếp sau khi người dùng vuốt tay
                     pauseOnMouseEnter: true, // Tạm dừng chạy khi di chuột vào slide (rất tốt cho UX)
                   },
-    });
-    var swiper3 = new Swiper(".mySwiper", {
-      pagination: {
+        pagination: {
         el: ".swiper-pagination",
+        clickable: true,
       },
     });
+    
     </script>
     
   </body>
