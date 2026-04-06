@@ -153,7 +153,9 @@
     .topic-list .flex-3-40 {
         flex: 100%;
     }
-
+    .topic-list.mt-50{
+        gap:10px
+    }
 
     .khung {
         flex-direction: column;
@@ -170,7 +172,6 @@
     .info-bill {
         width: 100%;
     }
-
     .grid-vocabulary {
 
         grid-template-columns: 1fr;
