@@ -885,5 +885,6 @@ p{
     border-radius: 50px;
     background: #F4B00C;
 }
-.swiper-pagination-bullets{
+.swiper-pagination-bullet{
+    transition: .3s;
 }
