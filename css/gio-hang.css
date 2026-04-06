@@ -1,233 +1,208 @@
 .container.mw-1130 {
-    .container.mw-1130 {
-        max-width: 1130px;
-    }
+    max-width: 1130px;
+}
 
+.cart {
 
-    .cart {
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+}
 
+.product {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
 
-        margin-top: 100px;
-        display: flex;
-        align-items: start;
-    }
+.khung {
+    display: flex;
+    gap: 30px;
+}
 
-    .product {
-        width: 100%;
-        background-color: #FFFFFF;
-        border-radius: 10px;
-        padding: 20px 15px;
-        min-height: 450px;
-    }
+.price {
+    display: flex;
+    gap: 15px;
+}
 
-    .khung {
-        display: flex;
-        gap: 30px;
-        align-items: flex-start;
-    }
+.text-cart {
+    margin: 20px auto;
 
+}
 
-    .price {
-        display: flex;
-        flex: 1;
-        gap: 15px;
-    }
+.photo-product {
+    width: 50px;
+    height: 50px;
+}
 
-    .price .icon-14 {
-        position: relative;
-        margin-left: auto;
-    }
+.info-product {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    flex: 1;
 
-    .price .image-icon {
-        position: absolute;
-        right: 0;
-    }
+}
 
+.product-list {
+    display: grid;
+    flex: 1;
+    gap: 20px;
 
-    .photo-product {
-        width: 50px;
-        height: 50px;
-    }
-
-    .info-product {
-        display: flex;
-        gap: 30px;
-        flex-direction: column;
-        flex: 1;
-
-    }
-
-    .product-list {
-        display: grid;
-        gap: 20px;
-
-
-    }
+}
 
 
 
-    .info {
-        display: flex;
-        gap: 30px;
-    }
+.info {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
 
-    .name-product {
-        display: flex;
-        gap: 10px;
+.name-product {
+    display: flex;
+    gap: 10px;
+    flex: 1;
 
-    }
+}
 
-    .name {
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 15vw;
-    }
-
-    .calculate {
-        position: sticky;
-        width: 320px;
-        top: 100px;
-
-    }
-
-    .discount {
-        display: flex;
-        flex-direction: column;
-        padding: 15px 10px;
-        background-color: #FFFFFF;
-        gap: 10px;
-        border-radius: 10px;
-    }
-
-    .voucher {
-        display: flex;
-        gap: 5px;
-        justify-content: space-between;
-        flex: 1;
-    }
-
-    .voucher .input {
-        height: 35px;
-    }
-
-    .btn-voucher {
-        white-space: nowrap;
-        height: 35px;
-        border-radius: 3px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border: none;
-        cursor: pointer;
-
-    }
-
-    .pay {
-        background-color: #FFFFFF;
-        width: 320px;
-        display: grid;
-        padding: 15px 10px;
-        gap: 15px;
-        border-radius: 10px;
-        margin-top: 15px;
-    }
-
-    .info-bill {
-        grid-template-columns: 1fr;
-        display: grid;
-        align-items: center;
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        border-bottom: 1px solid #D9D9D9;
-        border-top: 1px solid #D9D9D9;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        gap: 18px;
-    }
-
-    .bill {
+.name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
 
-        display: flex;
-        justify-content: space-between;
-    }
+}
 
-    .btn.btn-bill {
-        padding: 10px;
-        border-radius: 10px;
-    }
 
-    .vat {
-        margin-top: 8px;
-        text-align: end;
-        opacity: 0.6;
-    }
 
-    .input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #D9D9D999;
-        border-radius: 5px
-    }
+.calculate {
+    display: grid;
+    gap: 15px;
+    width: 320px;
+}
 
-    .ak-4 {
+.discount {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    border-radius: 10px;
+}
 
-        .ak-4 {
-            width: 16px;
-            height: 16px;
-            position: relative;
-        }
+.voucher {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex: 1
+}
 
-        .label-checkbox {
-            width: 15px;
-            height: 15px;
-            position: absolute;
-            z-index: 3;
-            cursor: pointer;
-            border: 1px solid #d9d9d9;
-            border-radius: 5px;
-            overflow: hidden;
-        }
+.btn-voucher {
+    white-space: nowrap;
+    height: 35px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+}
 
-        .label-checkbox::before {
+.pay {
+    background-color: #FFFFFF;
+    width: 320px;
+    display: grid;
+    padding: 15px 10px;
+    gap: 15px;
+    border-radius: 10px;
 
-            .label-checkbox::before {
-                content: "";
-                position: absolute;
-                width: 16px;
-                height: 16px;
-                background-color: orange;
-                z-index: 1;
-                visibility: hidden;
-            }
+}
 
-            .label-checkbox::after {
+.info-bill {
+    grid-template-columns: 1fr;
+    display: grid;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 18px;
+}
 
-                .label-checkbox::after {
-                    content: "";
-                    position: absolute;
-                    width: 16px;
-                    height: 16px;
-                    background-image: url(/icon/tick-white.svg);
-                    background-repeat: no-repeat;
-                    background-size: 50%;
-                    background-position: center;
-                    z-index: 2;
-                    visibility: hidden;
-                }
+.bill {
 
-                .check:checked+.label-checkbox::after {
+    display: flex;
+    justify-content: space-between;
+}
 
-                    .check:checked+.label-checkbox::after {
-                        visibility: visible;
-                    }
+.btn-bill {
+    padding: 10px;
+    border-radius: 10px;
+}
 
-                    .check:checked+.label-checkbox::before {
+.vat {
+    margin-top: 8px;
+    text-align: end;
+}
 
-                        .check:checked+.label-checkbox::before {
-                            visibility: visible;
-                        }
+.input {
+    width: 100%;
+}
 
-                        .check:checked+.label-checkbox {
-                            border: none;
-                        }
+.ak-4 {
+    width: 16px;
+    height: 16px;
+
+    position: relative;
+}
+
+.check {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+}
+
+.label-checkbox {
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.label-checkbox::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: orange;
+    z-index: 1;
+    border-radius: 5px;
+
+}
+
+.label-checkbox::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+
+    background-image: url(/icon/tick-white.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    z-index: 2;
+}
+
+.check:checked+.label-checkbox::after {
+    visibility: visible;
+}
+
+.check:checked+.label-checkbox::before {
+    visibility: visible;
+}
