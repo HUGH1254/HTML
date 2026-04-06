@@ -310,7 +310,7 @@
       </section>
       <section class="comment mt-140 ">
         <p class="text-40-600">Cảm nhận của khách hàng</p>
-        <div class="container" >
+        <div class="container mySwiper" >
           <div class="background-decamy">
             <img src="img/plane.svg" alt="" class="plane" />
           </div>
@@ -412,10 +412,7 @@
               </p>
             </div>
           </div>
-          <div class="comment-dots">
-            <button class="icon-10 btn active"></button>
-            <button class="icon-10 btn"></button>
-            <button class="icon-10 btn"></button>
+          <div class="swiper-pagination">
           </div>
         </div>
       </section>
@@ -868,7 +865,7 @@
 });
 // Viết ở cuối file, sau khi đã nhúng link JS
 
-    const swiper1 = new Swiper(".container", {
+    const swiper1 = new Swiper(".mySwiper", {
         // Mặc định trên Mobile (màn hình rất nhỏ): Hiện 1.5 thẻ để người dùng biết có thể vuốt
         slidesPerView: 'auto',
         spaceBetween: 30,
@@ -877,6 +874,11 @@
                     disableOnInteraction: false, // Quan trọng: Slide vẫn chạy tiếp sau khi người dùng vuốt tay
                     pauseOnMouseEnter: true, // Tạm dừng chạy khi di chuột vào slide (rất tốt cho UX)
                   },
+    });
+    var swiper3 = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
     });
     </script>
     
