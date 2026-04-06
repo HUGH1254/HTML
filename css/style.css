@@ -10,7 +10,7 @@ body,
 html {
     overflow-x: hidden;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{line-height: 0;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{line-height: auto;}
 .icon-63 {
     width: 63px;
     height: 63px;
@@ -550,7 +550,7 @@ p{
 .background-decamy {
     right: 0;
     left: 0;
-    background-image: url("img/texture-decamy.svg");
+    background-image: url("/img/texture-decamy.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -577,10 +577,7 @@ p{
 
 .comment-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 30px;
-
 }
 
 .icon-10 {
@@ -876,4 +873,11 @@ p{
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+.photo-grid .swiper-wrapper {
+    /* Ép hiệu ứng chuyển cảnh về dạng tuyến tính (không nhanh chậm) */
+    transition-timing-function: linear !important;
+}
+.photo-grid{
+    pointer-events: none;
 }
